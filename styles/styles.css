@@ -268,23 +268,23 @@ opacity: 0.5;
 }
 
 .parallax.img1{
-    background-image: url('/images/banner/Banner-1.jpg');
+    background-image: url(" ../images/banner/Banner-1.jpg ");
     height: 608px;
 }
 .parallax.img2{
-    background-image: url('/images/Services/web-designing.webp');
+    background-image: url(" ../images/Services/web-designing.webp ");
     height: 608px;
 }
 .parallax.img3{
-    background-image: url('/images/Services/branding.webp');
+    background-image: url(" ../images/Services/branding.webp");
     height: 608px;
 }
 .parallax.img4{
-    background-image: url('/images/Services/advertising.webp');
+    background-image: url(" ../images/Services/advertising.webp ");
     height: 608px;
 }
 .parallax.img5{
-    background-image: url('/images/banner/Banner-1.jpg');
+    background-image: url(" ../images/banner/Banner-1.jpg ");
     height: 608px;
 }
 .main-wrapper{
