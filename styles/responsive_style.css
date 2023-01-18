@@ -1,0 +1,118 @@
+/* media query 1170px */
+@media (max-width:1199.5px) {
+    /* parallax css*/
+    .parallax:not(.parallax-main){
+        background-size: 50%;
+    }
+    .main-wrapper .black-card{
+        width: 100%;
+    }
+    /* process */
+    .process-wrapper .process-content{
+        width:100%;
+    }
+   
+
+}
+/* media query 991px */
+@media (max-width:991.5px){
+    /* navbar css */
+    .header .navbar-collapse{
+        padding:2rem;
+    }
+    .header.navbar-nav .nav-link{
+        padding: 0.6rem 0.5rem;
+        margin-bottom: 2rem;
+    }
+    /* banner */
+    .banner-wrapper{
+        margin-top:4rem;
+        padding: 4rem 2rem;
+        min-height: 730px;
+    }
+
+     /* card */
+    .main-wrapper .black-card{
+        left:-226px;
+    }
+    .main-wrapper .black-card.right{
+        right:-226px;
+    }
+
+    /* parallax css*/
+    .parallax-main{
+        background-size:cover;
+    }
+   
+
+}
+
+/* media query 767px */
+@media (max-width:767.5px){
+    /* general css */
+    body,
+    html{
+    font-size: 8px;
+    }
+    /* banner */
+    .banner-wrapper{
+        min-height: 550px;
+    }
+    /* card */
+    .main-wrapper .black-card{
+        left:5%;
+        width:90%;
+    }
+    .main-wrapper .black-card.right{
+        right:5%;
+        width: 90%;
+    }
+    
+    /* parallax css */
+    .parallax:not(.parallax-main){
+        background-size:cover;
+    }
+    .main-wrapper .black-card{
+        width:cover;
+    }
+    
+}
+
+/* media query 590px */
+
+@media (max-width:590px){
+    /* general css */
+    body,
+    html{
+        font-size: 7px;
+    }
+    /* card */
+
+
+    /* parallax css */
+    .parallax.img2,
+    .parallax.img3,
+    .parallax.img4,
+    .parallax.img5{
+        height: 408px;
+    }
+    .main-wrapper{
+        margin: top 35vh;
+    }
+
+    /* footer */
+    .link-widget a img{
+        width:30px;
+        height: 30px;
+    }
+}
+
+/* media query 330px */
+@media (max-width: 390.4px){
+    h1{
+        font-size:27px;
+    }
+    h2{
+        font-size:25px;
+    }
+}
